@@ -89,7 +89,7 @@ P {
     font-size: 22px;
 }
 .intro-img {
-     background-image: url("../Rectangle\4.png");
+    background-image: url("../Rectangle\4.png");
     background: linear-gradient(217.64deg, #9181F4 -5.84%, #5038ED 106.73%);
     min-width: 680px;
     height: 100vh;
@@ -104,7 +104,7 @@ P {
     border-radius: 16px;
     display: block;
     right:200px;
-    top: 170px;
+    top: 180px;
     position: absolute;
     
     
@@ -123,7 +123,17 @@ img {
     line-height: 1.6;
     display: block;
     position: absolute;
-    top: 275px;
+    top: 225px;
     left: 120px;
     z-index: 222;
+}
+.icon {
+    position: relative;
+}
+.icon img{
+    width: 60px;
+    height: 65px;
+    position: absolute;
+    top: 250px;
+    left: 50px;
 }
